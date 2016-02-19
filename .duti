@@ -1,0 +1,3 @@
+com.github.atom       public.plain-text   all
+com.github.atom       public.source-code  all
+org.m0k.transmission  .torrent            all
