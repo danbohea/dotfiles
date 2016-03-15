@@ -33,3 +33,9 @@
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# IDE
+# ------------------------------------------------------------------------------
+# http://stackoverflow.com/a/11968647/464066
+**/.idea/workspace.xml
+**/.idea/tasks.xml
