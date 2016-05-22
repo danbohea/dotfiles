@@ -2,3 +2,7 @@ com.github.atom       .md                 all
 com.github.atom       public.plain-text   all
 com.github.atom       public.source-code  all
 org.m0k.transmission  .torrent            all
+org.videolan.vlc      .avi                all
+org.videolan.vlc      .m4v                all
+org.videolan.vlc      .mkv                all
+org.videolan.vlc      .mp4                all
