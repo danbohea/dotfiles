@@ -1,5 +1,5 @@
 # Nicer prompt
-export PS1="[mac] \w $ "
+export PS1="[] \w $ "
 
 # Include .profile
 if [ -f ~/.profile ]
