@@ -21,8 +21,8 @@ export PATH="/usr/local/bin:/usr/local/sbin:$PATH"
 export HOMEBREW_CASK_OPTS="--appdir=/Applications";
 
 # rbenv requirements
-export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
+# export PATH="$HOME/.rbenv/bin:$PATH"
+# eval "$(rbenv init -)"
 
 # Include Android SDK (used in flashing ROMs etc)
 if [ -d "$HOME/Development/android-sdk-macosx/platform-tools" ] ; then
