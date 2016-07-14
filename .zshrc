@@ -5,7 +5,7 @@ export ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="robbyrussell"
+# ZSH_THEME="robbyrussell"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -49,7 +49,7 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(bower brew composer git jira npm osx vagrant)
 
 # User configuration
 
@@ -82,3 +82,41 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# Custom
+# ------------------------------------------------------------------------------
+
+# Prompt
+PROMPT="$fg[blue]%* $fg[green]%~ $fg[magenta]➜ $reset_color"
+# RPROMPT="$(git_prompt_info)"
+
+# Vagrant aliases
+alias vag='vagrant'
+alias vdest='vagrant destroy'
+alias vhalt='vagrant halt'
+alias vprov='vagrant provision'
+alias vrel='vagrant reload'
+alias vres='vagrant resume'
+alias vshare='vagrant share'
+alias vssh='vagrant ssh'
+alias vsus='vagrant suspend'
+alias vup='vagrant up'
+
+# Homebrew requirements
+export PATH="/usr/local/bin:/usr/local/sbin:$PATH"
+
+# Create Homebrew cask app symlinks in /Applications rather than ~/Applications.
+# This will soon become default behaviour.
+export HOMEBREW_CASK_OPTS="--appdir=/Applications";
+
+# rbenv requirements
+# export PATH="$HOME/.rbenv/bin:$PATH"
+# eval "$(rbenv init -)"
+
+# Include Android SDK (used in flashing ROMs etc)
+if [ -d "$HOME/Development/android-sdk-macosx/platform-tools" ] ; then
+  export PATH="$HOME/Development/android-sdk-macosx/platform-tools:$PATH"
+fi
+
+# Ansible
+export ANSIBLE_HOSTS=$HOME/Dropbox/Ansible/hosts
