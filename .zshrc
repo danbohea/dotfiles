@@ -14,6 +14,7 @@ ZSH_CUSTOM=~/.dotfiles/zsh_custom
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
+# More info: https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins
 plugins=(bower brew composer git jira npm osx vagrant)
 
 source $ZSH/oh-my-zsh.sh
