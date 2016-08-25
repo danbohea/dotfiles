@@ -36,6 +36,10 @@ Thumbs.db
 
 # IDE
 # ------------------------------------------------------------------------------
-# http://stackoverflow.com/a/11968647/464066
-**/.idea/workspace.xml
-**/.idea/tasks.xml
+# https://github.com/github/gitignore/blob/master/Global/JetBrains.gitignore
+# User-specific stuff:
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/vcs.xml
+.idea/jsLibraryMappings.xml
