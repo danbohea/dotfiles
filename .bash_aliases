@@ -1,6 +1,7 @@
 # Git
 # ------------------------------------------------------------------------------
 
+# Credit: http://stackoverflow.com/a/12083016/464066
 alias glog='git log `git describe --tags --abbrev=0`..HEAD --pretty=format:"- %h : %s"'
 
 # Vagrant
