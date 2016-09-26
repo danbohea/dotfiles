@@ -1,4 +1,11 @@
+# Git
+# ------------------------------------------------------------------------------
+
+alias glog='git log `git describe --tags --abbrev=0`..HEAD --pretty=format:"- %h : %s"'
+
 # Vagrant
+# ------------------------------------------------------------------------------
+
 alias vag='vagrant'
 alias vdest='vagrant destroy'
 alias vhalt='vagrant halt'
@@ -11,4 +18,6 @@ alias vsus='vagrant suspend'
 alias vup='vagrant up'
 
 # Vlad / Drupal VM
+# ------------------------------------------------------------------------------
+
 alias vm-deps='echo "VirtualBox `VBoxManage --version`"; vagrant --version; ansible --version; vagrant plugin list'
