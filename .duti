@@ -1,5 +1,6 @@
 # Handy UTI reference: https://goo.gl/huiIlB
 
+com.github.atom       .cson                 all
 com.github.atom       .lock                 all
 com.github.atom       .make                 all
 com.github.atom       .md                   all
