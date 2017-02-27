@@ -19,8 +19,5 @@ alias vssh='vagrant ssh'
 alias vsus='vagrant suspend'
 alias vup='vagrant up'
 
-# Vlad / Drupal VM
-# ------------------------------------------------------------------------------
-
 # List versions of key dependencies.
 alias vm-deps='echo "VirtualBox `VBoxManage --version`"; vagrant --version; ansible --version; vagrant plugin list'
