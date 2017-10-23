@@ -26,3 +26,12 @@ alias vup='vagrant up'
 
 # List versions of key dependencies.
 alias vm-deps='echo "VirtualBox `VBoxManage --version`"; vagrant --version; ansible --version; vagrant plugin list'
+
+# Composer
+# ------------------------------------------------------------------------------
+
+alias comreq='composer require --ignore-platform-reqs'
+alias comrem='composer remove --ignore-platform-reqs'
+alias comi='composer install --ignore-platform-reqs'
+alias comu='composer update --ignore-platform-reqs'
+alias --ipr='--ignore-platform-reqs'
