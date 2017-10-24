@@ -30,8 +30,8 @@ alias vm-deps='echo "VirtualBox `VBoxManage --version`"; vagrant --version; ansi
 # Composer
 # ------------------------------------------------------------------------------
 
-alias comreq='composer require --ignore-platform-reqs'
-alias comrem='composer remove --ignore-platform-reqs'
-alias comi='composer install --ignore-platform-reqs'
-alias comu='composer update --ignore-platform-reqs'
-alias --ipr='--ignore-platform-reqs'
+alias compreq='composer require --ignore-platform-reqs'
+alias comprem='composer remove --ignore-platform-reqs'
+alias compin='composer install --ignore-platform-reqs'
+alias compup='composer update --ignore-platform-reqs'
+alias ipr='ignore-platform-reqs'
