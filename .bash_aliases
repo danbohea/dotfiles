@@ -1,3 +1,12 @@
+# Composer
+# ------------------------------------------------------------------------------
+
+alias compreq='composer require --ignore-platform-reqs'
+alias comprem='composer remove --ignore-platform-reqs'
+alias compin='composer install --ignore-platform-reqs'
+alias compup='composer update --ignore-platform-reqs'
+alias ipr='ignore-platform-reqs'
+
 # Docker
 # ------------------------------------------------------------------------------
 
@@ -26,12 +35,3 @@ alias vup='vagrant up'
 
 # List versions of key dependencies.
 alias vm-deps='echo "VirtualBox `VBoxManage --version`"; vagrant --version; ansible --version; vagrant plugin list'
-
-# Composer
-# ------------------------------------------------------------------------------
-
-alias compreq='composer require --ignore-platform-reqs'
-alias comprem='composer remove --ignore-platform-reqs'
-alias compin='composer install --ignore-platform-reqs'
-alias compup='composer update --ignore-platform-reqs'
-alias ipr='ignore-platform-reqs'
