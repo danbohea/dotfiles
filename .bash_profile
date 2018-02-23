@@ -18,10 +18,10 @@ export PATH="/usr/local/bin:/usr/local/sbin:$PATH"
 
 # Create Homebrew cask app symlinks in /Applications rather than ~/Applications.
 # This will soon become default behaviour.
+# TODO: Check if this is still needed.
 export HOMEBREW_CASK_OPTS="--appdir=/Applications";
 
 # Ansible
-
 # Deprecated in Ansible 2.8.
 # TODO: What's the proper way of doing this now?
 # export ANSIBLE_HOSTS=$HOME/Dropbox/Ansible/hosts
