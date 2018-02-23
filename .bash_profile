@@ -21,7 +21,10 @@ export PATH="/usr/local/bin:/usr/local/sbin:$PATH"
 export HOMEBREW_CASK_OPTS="--appdir=/Applications";
 
 # Ansible
-export ANSIBLE_HOSTS=$HOME/Dropbox/Ansible/hosts
+
+# Deprecated in Ansible 2.8.
+# TODO: What's the proper way of doing this now?
+# export ANSIBLE_HOSTS=$HOME/Dropbox/Ansible/hosts
 
 # rbenv requirements
 if [ -d "$HOME/.rbenv" ] ; then
