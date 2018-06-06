@@ -39,3 +39,7 @@ fi
 
 # Autocompletion for itermocil
 complete -W "$(itermocil --list)" itermocil
+
+# nvm
+export NVM_DIR="$HOME/.nvm"
+. "/usr/local/opt/nvm/nvm.sh"
